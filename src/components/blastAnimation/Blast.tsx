@@ -1,6 +1,6 @@
 import './blast.scss';
 
-const Blast = ({ letterClass, arrayStr, indexLetter }) => {
+const Blast = ({ letterClass, arrayStr, indexLetter }: { letterClass: string; arrayStr: Array<string>; indexLetter: number }) => {
   return (
     <span>
       {arrayStr.map((char, index) => {
