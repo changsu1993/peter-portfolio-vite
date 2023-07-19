@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
-import myCV from '../../assets/images/MyCV.pdf';
-import { Reveal } from 'react-awesome-reveal';
+// import myCV from '../../assets/images/MyCV.pdf';
+import Reveal from 'react-awesome-reveal';
 import { Fade } from 'react-awesome-reveal';
 
 // components
@@ -46,13 +46,13 @@ const About = () => {
               </p>
             </Fade>
             <Fade direction='left'>
-              <a style={{ marginTop: '2rem' }} href={myCV} download className='contact-button submit-button'>
+              {/* <a style={{ marginTop: '2rem' }} href={myCV} download className='contact-button submit-button'>
                 <div>
                   <span className='bg switch__bg'></span>
                   <span className='base switch__border-color'></span>
                   <span className='text'>Download CV</span>
                 </div>
-              </a>
+              </a> */}
             </Fade>
           </div>
         </article>
