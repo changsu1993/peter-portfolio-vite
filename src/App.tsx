@@ -1,8 +1,7 @@
-import { useState } from 'react';
 import { Route, Routes, useLocation } from 'react-router-dom';
 import { About } from './pages';
 
-import './App.css';
+import './App.scss';
 
 function App() {
   const location = useLocation();
