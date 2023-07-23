@@ -1,5 +1,5 @@
 import { Route, Routes, useLocation } from 'react-router-dom';
-import { About } from './pages';
+import { Home, About } from './pages';
 
 import './App.scss';
 
@@ -8,6 +8,7 @@ function App() {
 
   return (
     <Routes location={location} key={location.pathname}>
+      <Route path='/' element={<Home />} />
       <Route path='/about' element={<About />} />
     </Routes>
   );

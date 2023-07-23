@@ -1,8 +1,10 @@
-import About from '../about/About';
+import { Header } from '../../components';
+import { About } from '../../pages';
 
 const Home = () => {
   return (
     <>
+      <Header />
       <section className='section-about'>
         <About />
       </section>
