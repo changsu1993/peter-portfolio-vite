@@ -1,7 +1,7 @@
 import { Fade } from 'react-awesome-reveal';
 import './projects.scss';
 
-const Project = (props) => {
+const Projects = (props) => {
   const { imgUrl, name, desc, stack, gitHubUrl, website } = props;
   return (
     <Fade direction='down'>
@@ -28,4 +28,4 @@ const Project = (props) => {
   );
 };
 
-export default Project;
+export default Projects;
