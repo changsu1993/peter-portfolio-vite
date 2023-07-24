@@ -6,7 +6,7 @@ const Cards = () => {
   return (
     <div className='about-description-skills'>
       {skillSet.map((item, index) => (
-        <Fade direction='down' key={index + '' + item}>
+        <Fade direction='down' triggerOnce key={index + '' + item}>
           <a href={item.url} target='_blank' rel='noopener noreferrer' className='skill-container'>
             {item.icon}
             <span className='skill__name'>{item.spanText}</span>

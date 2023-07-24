@@ -1,10 +1,10 @@
 import { Fade } from 'react-awesome-reveal';
 import './projects.scss';
 
-const Projects = (props) => {
+const Projects = (props: any) => {
   const { imgUrl, name, desc, stack, gitHubUrl, website } = props;
   return (
-    <Fade direction='down'>
+    <Fade direction='down' triggerOnce>
       <section className='section__projects-single-projects'>
         <img src={imgUrl} alt='' />
         <div className='section__projects-contents'>

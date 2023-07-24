@@ -1,5 +1,5 @@
 import { Header } from '../../components';
-import { About } from '../../pages';
+import { About, ProjectPage } from '../../pages';
 
 const Home = () => {
   return (
@@ -8,6 +8,7 @@ const Home = () => {
       <section className='section-about'>
         <About />
       </section>
+      <ProjectPage />
     </>
   );
 };

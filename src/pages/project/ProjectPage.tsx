@@ -20,7 +20,7 @@ const ProjectPage = () => {
         <Blast letterClass={letterClass} arrayStr={['M', 'y', '', 'P', 'r', 'o', 'j', 'e', 'c', 't', 's']} indexLetter={12} />
       </h2>
       <div className='section__projects-description'>
-        <Fade direction='down'>
+        <Fade direction='down' triggerOnce>
           <p>
             Here are some selected and challenging personal projects that I have worked on so far which enabled me to level up my skills to a
             fascinating point that makes me feel confident in tackling more difficult challenges.
