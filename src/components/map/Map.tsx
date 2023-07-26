@@ -2,9 +2,12 @@ import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 
 const Map = () => {
   return (
-    <MapContainer center={[6.5244, 3.3792]} zoom={15} scrollWheelZoom={false}>
-      <TileLayer url='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png' />
-      <Marker position={[51.505, -0.09]}>
+    <MapContainer center={[37.618269, 126.914335]} zoom={15} scrollWheelZoom={false}>
+      <TileLayer
+        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        url='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
+      />
+      <Marker position={[37.618269, 126.914335]}>
         <Popup>Tadaa ! Here's where i live. You are free to pay a visit</Popup>
       </Marker>
       <div className='map-content'>

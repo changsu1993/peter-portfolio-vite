@@ -6,7 +6,7 @@ import Blast from '../blastAnimation/Blast';
 import './header.scss';
 
 const nameArray = ['C', 'h', 'a', 'n', 'g', 's', 'u'];
-const jobArray = ['F', 'r', 'o', 'n', 't', '-', 'E', 'n', 'd', '', 'D', 'e', 'l', 'o', 'p', 'e', 'r', '.'];
+const jobArray = ['w', 'e', 'b', '', 'd', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r', '.'];
 
 const Header = () => {
   const [letterClass, setLetterClass] = useState('text-animate');
@@ -31,10 +31,10 @@ const Header = () => {
             <span className={`${letterClass} _16`}>m</span> {''}
             <Blast letterClass={letterClass} arrayStr={nameArray} indexLetter={15} />
             <br />
-            <Blast letterClass={letterClass} arrayStr={jobArray} indexLetter={18} />
+            <Blast letterClass={letterClass} arrayStr={jobArray} indexLetter={22} />
           </h1>
 
-          <p className='text-desc'>WEB DEVELOPER / UI/UX DESIGNER</p>
+          <p className='text-desc'>FRONT-END DEVELOPER</p>
           <Link to='/contact' className='contact-button'>
             <div>
               <span className='bg switch__bg'></span>
