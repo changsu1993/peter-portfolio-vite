@@ -8,7 +8,7 @@ const Map = () => {
         url='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
       />
       <Marker position={[37.618269, 126.914335]}>
-        <Popup>Tadaa ! Here's where i live. You are free to pay a visit</Popup>
+        <Popup>Changsu's Home</Popup>
       </Marker>
       <div className='map-content'>
         <h3 className='switch__color'>Changsu</h3>
